@@ -5,6 +5,7 @@ function gooseFilter (birds) {
       for(let j=0;j<geese.length;j++){
           if(geese[j] === outGeese[i]){
               outGeese.splice(i,1);
+              i--;
           }
       }
   }
