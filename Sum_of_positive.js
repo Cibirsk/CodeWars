@@ -1,8 +1,9 @@
 function positiveSum(arr) {
     let theSum=0;
-    for(let i of arr){
-        if(arr[i] >= 0){
-            theSum += arr[i];
+    //for(let i =0; i<arr.length;i++){
+    for (let i of arr){
+        if(i >= 0){
+            theSum = theSum + i;
         }
     }
     return theSum;
